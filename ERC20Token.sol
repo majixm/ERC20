@@ -34,7 +34,7 @@ contract SalchainToken is IERC20 {
         symbol = "MJX";
         decimals = 10;
         totalSupply_ = 10000000000000;     // تعداد توکن مورد نظر ضربدر 10 به توان عدد دسیمال
-        balances[msg.sender] = totalSupply_;
+        balances[msg.sender] = totalSupply_;     // توتال ساپلای برای فراخواننده در نظر گرفته می شود
     }
 
     function totalSupply() public override view returns (uint256) {
