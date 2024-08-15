@@ -33,7 +33,7 @@ contract SalchainToken is IERC20 {
         name = "Majixm";
         symbol = "MJX";
         decimals = 10;
-        totalSupply_ = 1000000000000;     // total tokens would equal (totalSupply_/10**decimals)=1000
+        totalSupply_ = 10000000000000;     // تعداد توکن مورد نظر ضربدر 10 به توان عدد دسیمال
         balances[msg.sender] = totalSupply_;
     }
 
