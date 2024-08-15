@@ -1,1 +1,1 @@
-# ERC20
+Creating ERC-20 token on Sepolia Testnet
