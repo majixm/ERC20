@@ -42,7 +42,7 @@ contract SalchainToken is IERC20 {
     }
 
     function balanceOf(address tokenOwner) public override view returns (uint256) {
-        return balances[tokenOwner];
+        return balances[tokenOwner];     // کل موجودی توکن ها رو برمی گرداند
     }
 
     function transfer(address receiver, uint256 numTokens) public override returns (bool) {
