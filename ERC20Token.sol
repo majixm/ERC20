@@ -30,8 +30,8 @@ contract SalchainToken is IERC20 {
 
 
     constructor()  {
-        name = "Majixm";
-        symbol = "MJX";
+        name = "Majixm";     // نام توکن به دلخواه
+        symbol = "MJX";     // نماد توکن که شامل سه یا چهار کاراکتر با حروف بزرگ نوشته می شود
         decimals = 10;
         totalSupply_ = 10000000000000;     // تعداد توکن مورد نظر ضربدر 10 به توان عدد دسیمال
         balances[msg.sender] = totalSupply_;     // توتال ساپلای برای فراخواننده در نظر گرفته می شود
